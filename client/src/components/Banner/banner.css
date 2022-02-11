@@ -1,0 +1,24 @@
+.banner {
+  width: 100%;
+  height: calc(100vh - 50px);
+  background: radial-gradient(
+    circle at 32% 65%,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(83, 83, 83, 1) 100%
+  );
+  @apply px-20 py-24;
+}
+
+.banner h1 {
+  @apply font-Bebas;
+  background-image: linear-gradient(
+    to left,
+    #051937,
+    #050608,
+    #00164f,
+    #001259,
+    #000962
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

@@ -1,0 +1,14 @@
+.linkslist {
+  @apply flex justify-between p-0 items-center bg-zinc-400;
+}
+
+.linkslist .left {
+  @apply flex items-center p-1;
+}
+.linkslist .right {
+  @apply flex items-center p-1;
+}
+
+.linkslist .left a {
+  @apply mx-2;
+}

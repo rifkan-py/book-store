@@ -1,0 +1,39 @@
+.nav-bar {
+  background: linear-gradient(to bottom, rgb(61, 61, 61), rgb(20, 20, 20));
+  @apply text-white flex items-center px-5 gap-4 flex-wrap shadow-2xl;
+  height: 70px;
+  z-index: 10;
+  position: relative;
+}
+
+.search-bar {
+  @apply flex-1;
+}
+
+.search-bar input {
+  width: 100%;
+  border-radius: 4px;
+  @apply p-2 text-black;
+  outline: 0;
+}
+
+.search-bar input:focus {
+  @apply border-cyan-400 border-2;
+}
+.add-to-cart {
+  position: relative;
+}
+.add-to-cart span {
+  position: absolute;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  display: grid;
+  place-items: center;
+  top: -10px;
+  right: 5px;
+  @apply bg-red-600 p-1 text-sm;
+}
+.store-icon {
+  @apply text-3xl mx-4;
+}
